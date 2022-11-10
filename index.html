@@ -9,37 +9,38 @@
     <title>Tamagotchi Game | Preston McCarthy</title>
 </head>
 <body>
-    <nav class="tamagotchi navbar-dark bg-dark">
+    <nav class="tamagotchi-heading">
         <h1 class="text-bg-dark">Keep Your Pet Alive!</h1>
     </nav>
     <header>
-        <h2 class="text-white">Life of petName</h2>
+        <h2 class="life-of-pet-text">Life of petName</h2>
         <p class="pet-bio">Pet bio goes here</p>
     </header>
     <main>
         <div class="main-game-container">
             <div class="pet-info">
                 <div class="age-timer">
-                    <img src="https://media.istockphoto.com/id/1194322688/vector/hourglass-icon-stock-illustration.jpg?s=612x612&w=0&k=20&c=kIDrxSpIrLbYhPcS_kmVYzcroHvunjFcX4cODIPijLw=">
-                    <p class="age-count">Age: 0</p>
+                    <img class="hourglass" src="https://media.istockphoto.com/id/1194322688/vector/hourglass-icon-stock-illustration.jpg?s=612x612&w=0&k=20&c=kIDrxSpIrLbYhPcS_kmVYzcroHvunjFcX4cODIPijLw=">
+                    <h2 class="age-count">Age: 0</h2>
                 </div>
                 <div class="pet-status">
-                    <h2>petName is feeling statusUpdate</h2>
+                    <h2>I'm feeling happy!</h2>
                 </div>
                 <div class="pet-image">
-                    <img src="https://t1.ea.ltmcdn.com/en/razas/4/5/0/shiba-inu_54_0_600.jpg">
+                    <img class="shiba" src="https://t1.ea.ltmcdn.com/en/razas/4/5/0/shiba-inu_54_0_600.jpg">
                 </div>
                 <div class="pet-name-button">
                     <input type="text" class="pet-name-input" placeholder="Pet Name Here"></input>
                     <button>Name My Pet</button>
                 </div>
+                <div class="action-buttons">
+                    <button id="play-button">Play with Me</button>
+                    <button id="feed-button">Feed Me</button>
+                    <button id="nap-button">Time to Sleep</button>
+                    <!-- <button id="hatch-button">Hatch Egg</button> -->
+                </div>
             </div>
-            <div class="action-buttons">
-                <button id="play-button">Play with Me</button>
-                <button id="feed-button">Feed Me</button>
-                <button id="nap-button">Time to Sleep</button>
-                <button id="hatch-button">Hatch Egg</button>
-            </div>
+            
         </div>
     </main>
 </body>
