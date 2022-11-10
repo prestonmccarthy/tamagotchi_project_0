@@ -64,6 +64,10 @@ body {
     padding: 15px;
 }
 
+.button-prompts {
+    color:darkgrey;
+}
+
 .action-buttons {
     display: flex;
     justify-content: center;
@@ -81,8 +85,4 @@ body {
 
 #nap-button {
     background-color: darkgoldenrod;
-}
-
-#hatch-button {
-    background-color: wheat;
 }
