@@ -24,11 +24,11 @@ console.log(hungerLevel)
 const sleepinessLevel = document.getElementsByClassName("sleepiness-level")
 console.log(sleepinessLevel)
 
-const playBtn = document.getElementsByClassName("play-button")
+const playBtn = document.getElementById("play-button")
 console.log(playBtn)
 
-const hungerBtn = document.getElementsByClassName("feed-button")
+const hungerBtn = document.getElementById("feed-button")
 console.log(hungerBtn)
 
-const sleepBtn = document.getElementsByClassName("nap-button")
+const sleepBtn = document.getElementById("nap-button")
 console.log(sleepBtn)

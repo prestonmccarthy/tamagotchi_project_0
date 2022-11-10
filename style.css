@@ -40,6 +40,11 @@ body {
     grid-row: 1;
 }
 
+.hourglass:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
 .age-count {
     font-style: italic;
     margin: 25px 0 25px 10px;
@@ -57,6 +62,11 @@ body {
     height: 300px;
     border-radius: 50%;
     grid-row: 3;
+}
+
+.shiba:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
 }
 
 .pet-name-button {
@@ -86,3 +96,18 @@ body {
 #nap-button {
     background-color: darkgoldenrod;
 }
+
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
