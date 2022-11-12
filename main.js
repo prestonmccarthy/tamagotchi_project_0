@@ -1,34 +1,69 @@
 console.log("JS is running")
 
 const lifeOfPet = document.getElementsByClassName("life-of-pet-text")
-console.log(lifeOfPet)
+
 
 const petBio = document.getElementsByClassName("pet-bio")
-console.log(petBio)
+
 
 const ageCount = document.getElementsByClassName("age-count")
-console.log(ageCount)
+
 
 const petStatus = document.getElementsByClassName("pet-status")
-console.log(petStatus)
+
 
 const petName = document.getElementsByClassName("pet-name-input")
-console.log(petName)
 
-const boredomLevel = document.getElementsByClassName("boredom-level")
-console.log(boredomLevel)
 
-const hungerLevel = document.getElementsByClassName("hunger-level")
-console.log(hungerLevel)
+const boredomLevel = document.querySelector(".boredom-level")
 
-const sleepinessLevel = document.getElementsByClassName("sleepiness-level")
-console.log(sleepinessLevel)
+
+const hungerLevel = document.querySelector(".hunger-level")
+
+
+const sleepinessLevel = document.querySelector(".sleepiness-level")
+
 
 const playBtn = document.getElementById("play-button")
-console.log(playBtn)
 
-const hungerBtn = document.getElementById("feed-button")
-console.log(hungerBtn)
+
+const hungerButton = document.querySelector(".feed-button")
+
 
 const sleepBtn = document.getElementById("nap-button")
-console.log(sleepBtn)
+
+// function feedPet () {
+//     petFed *= 0;
+//     hungerLevel.innerHTML = `Hunger: ${petFed}`
+//     console.log(hungerLevel)
+//     // console.log(event)
+//     // //store the current text content of the p tag 
+//     // let display = parseInt(hungerLevel.textContent) // parseInt - convert a non integer value into an integer 
+//     // //parseInt("3") => 3
+//     // // console.log(display)
+//     // display-=1
+//     // hungerLevel.textContent = display
+//     // console.log(numberDisplay)
+//     // every time increaseNumber is called the value will be different - increaseNumber is a wrapper for some behavior
+//     // on click - change the dom from 0 > 1 > 2 > etc. 
+// } 
+
+// // hungerBtn.addEventListener("click", decreaseNumber)
+// hungerBtn.addEventListener(`click`, feedPet)
+
+
+let buttonClicked = 0;
+function feedPet() {
+    buttonClicked *= 0;
+    hungerLevel.innerHTML = `Hunger: ${buttonClicked}`
+}
+
+function napTime() {
+    buttonClicked *= 0;
+    sleepinessLevel.innerHTML = `Sleepiness: ${buttonClicked}`
+}
+
+function playWithPet() {
+    buttonClicked *= 0;
+    boredomLevel.innerHTML = `Boredom: ${buttonClicked}`
+}
