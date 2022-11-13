@@ -17,15 +17,17 @@
         <div class="main-game-container">
             <div class="pet-info">
                 <div class="age-timer">
-                    <h2 class="pet-name-text">Add Name</h2>
+                    <h2 class="pet-name-text">My Name is: </h2>
                     <h2 class="age-count">Age: 1</h2>
                 </div>
                 <div class="pet-image">
                     <img class="shiba" src="https://t1.ea.ltmcdn.com/en/razas/4/5/0/shiba-inu_54_0_600.jpg">
                 </div>
                 <div class="name-pet">
-                    <input type="text" class="name-input" placeholder="Name Your Pet">
-                    <input type="submit" class="submit-button">
+                    <input type="text" placeholder="Name Your Pet" id="name-input">
+                    <!-- <input type="submit" class="submit-button" onclick="namePet()"> -->
+                    <button type="button" onclick="namePet();">Name Pet</button>
+                    <p id="demo"></p>
                 </div>
                 <div class="pet-status">
                     <p>Pet Status: Happy</p>

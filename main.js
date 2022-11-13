@@ -3,6 +3,8 @@ console.log("JS is running")
 const lifeOfPet = document.getElementsByClassName("life-of-pet-text")
 const petBio = document.getElementsByClassName("pet-bio")
 const ageCount = document.querySelector(".age-count")
+let petName = document.querySelector(".pet-name-text")
+const submitButton = document.querySelector(".submit-button")
 const petStatus = document.querySelector(".pet-status")
 const boredomLevel = document.querySelector(".boredom-level")
 const hungerLevel = document.querySelector(".hunger-level")
@@ -10,14 +12,23 @@ const sleepinessLevel = document.querySelector(".sleepiness-level")
 const playBtn = document.getElementById("play-button")
 const hungerButton = document.querySelector(".feed-button")
 const sleepBtn = document.getElementById("nap-button")
+// const nameInput = document.getElementById("#name-input")
+
+
+// console.log(nameInput.value)
 
 let hungerCount = 1;
 let sleepinessCount = 1;
 let boredomCount = 1;
 let ageCounter = 1;
 
-document.getElementsByClassName("submit-button").onclick = function namePet() {
-    document.getElementsByClassName("pet-name-text").innerText = petName;
+// function myFunction(){
+//     let name = nameInput.name;
+// }
+
+function namePet() {
+    let nameInput = document.querySelector("#name-input");
+    petName.innerHTML = `My Name is: ${nameInput.value}`
 }
 
 function feedPet() {
