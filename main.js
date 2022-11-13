@@ -12,19 +12,12 @@ const sleepinessLevel = document.querySelector(".sleepiness-level")
 const playBtn = document.getElementById("play-button")
 const hungerButton = document.querySelector(".feed-button")
 const sleepBtn = document.getElementById("nap-button")
-// const nameInput = document.getElementById("#name-input")
-
-
-// console.log(nameInput.value)
 
 let hungerCount = 1;
 let sleepinessCount = 1;
 let boredomCount = 1;
 let ageCounter = 1;
 
-// function myFunction(){
-//     let name = nameInput.name;
-// }
 
 function namePet() {
     let nameInput = document.querySelector("#name-input");
