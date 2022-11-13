@@ -22,11 +22,11 @@ body {
     text-align: center;
 }
 
-.age-timer {
+/* .age-timer {
     display: flex;
     justify-content: center;
     color: white;
-}
+} */
 
 .age-count {
     font-style: italic;
@@ -55,8 +55,7 @@ body {
     animation-iteration-count: infinite;
 }
 
-.pet-name-button {
-    grid-row: 4;
+.name-pet {
     padding: 15px;
 }
 
