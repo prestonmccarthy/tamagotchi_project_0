@@ -16,6 +16,8 @@ body {
 
 .pet-bio {
     text-align: center;
+    color: red;
+    text-decoration: underline;
 }
 
 .main-game-container {
@@ -33,12 +35,12 @@ body {
     justify-content: center;
 }
 
-.hourglass {
+/* .hourglass {
     width: 80px;
     height: 80px;
     border-radius: 50%;
     grid-row: 1;
-}
+} */
 
 .age-count {
     font-style: italic;
@@ -50,7 +52,7 @@ body {
     align-items: center;
     font-size: 25px;
     margin: 20px 0 20px 0;
-    
+    color: lime;
 }
 
 .shiba {
@@ -73,7 +75,7 @@ body {
 }
 
 .button-prompts {
-    color:darkgrey;
+    color: white
 }
 
 .action-buttons {
@@ -84,15 +86,30 @@ body {
 }
 
 #play-button {
-    background-color: pink;
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
 }
 
 #feed-button {
-    background-color: green;
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
 }
 
 #nap-button {
-    background-color: darkgoldenrod;
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
 }
 
 
