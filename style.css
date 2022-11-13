@@ -1,17 +1,11 @@
-.tamagotchi-heading {
-    text-align: center;
-}
-
 body {
-    /* background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg");
-    background-size: cover;
-    background-position: center; */
     background-color: black;
     color: whitesmoke;
 }
 
 .life-of-pet-text {
     text-align: center;
+    color: lime;
 }
 
 .pet-bio {
@@ -26,21 +20,13 @@ body {
     width: 100%;
     margin: 20px 0 20px 0;
     text-align: center;
-    /* display: grid;
-    grid-template-rows: 100px 100px 300px 100px 100px; */
 }
 
 .age-timer {
     display: flex;
     justify-content: center;
+    color: white;
 }
-
-/* .hourglass {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    grid-row: 1;
-} */
 
 .age-count {
     font-style: italic;
