@@ -118,3 +118,4 @@ function countSleepinessUp () {
         ageCount.innerHTML = `Age: ${ageCounter*=0}`
     }
 } -->
+
