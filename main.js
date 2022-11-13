@@ -1,5 +1,3 @@
-console.log("JS is running")
-
 const lifeOfPet = document.getElementsByClassName("life-of-pet-text")
 const petBio = document.getElementsByClassName("pet-bio")
 const ageCount = document.querySelector(".age-count")

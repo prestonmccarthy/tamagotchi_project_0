@@ -22,12 +22,6 @@ body {
     text-align: center;
 }
 
-/* .age-timer {
-    display: flex;
-    justify-content: center;
-    color: white;
-} */
-
 .age-count {
     font-style: italic;
     margin: 25px 0 25px 10px;
